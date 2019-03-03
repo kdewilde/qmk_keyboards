@@ -31,8 +31,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * `--------------------'
  */
 [_QWERTY] = LAYOUT( \
-    KC_AUDIO_VOL_UP,    KC_MEDIA_PREV_TRACK,    KC_MEDIA_NEXT_TRACK, \
-    KC_AUDIO_VOL_DOWN,  KC_MEDIA_STOP,          LT(_FUNC, KC_MEDIA_PLAY_PAUSE) \
+    KC_MEDIA_SELECT,    KC_MEDIA_STOP,    KC_AUDIO_MUTE, \
+    KC_MEDIA_PREV_TRACK,  KC_MEDIA_NEXT_TRACK,          LT(_FUNC, KC_MEDIA_PLAY_PAUSE) \
 ),
 
 [_FUNC] = LAYOUT( \
@@ -45,4 +45,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 void matrix_init_user(void) {
     
+}
+
+void encoder_update_user(uint8_t index, bool clockwise) {
+    if (index == 0) {
+        if (clockwise) {
+            register_code(KC_AUDIO_VOL_UP);
+            unregister_code(KC_AUDIO_VOL_UP);
+        } else {
+            register_code(KC_AUDIO_VOL_DOWN);
+            unregister_code(KC_AUDIO_VOL_DOWN);
+        }
+    }
 }
