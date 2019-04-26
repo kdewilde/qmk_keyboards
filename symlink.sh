@@ -2,7 +2,6 @@
 #
 # create symlinks
 
-cd "$(dirname "$0")/.."
 ROOT_FOLDER=$(pwd -P)
 
 set -e
