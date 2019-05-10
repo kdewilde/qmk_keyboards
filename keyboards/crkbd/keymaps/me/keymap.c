@@ -99,9 +99,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //,-----------------------------------------.                ,-----------------------------------------.
         GRV,     1,     2,     3,     4,     5,                      6,     7,     8,     9,     0,  BSPC,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-      CTLTB,    F1,    F2,    F3,    F4,    F5,                     F6,  MINS,  PLUS,   EQL,  UNDS,  BSLS,\
+      XXXXX,    F1,    F2,    F3,    F4,    F5,                     F6,  MINS,  PLUS,   EQL,  UNDS,  BSLS,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-       LSFT,    F7,    F8,    F9,   F10,   F11,                    F12, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,\
+      XXXXX,    F7,    F8,    F9,   F10,   F11,                    F12, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,\
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
                                    LALT, ENTFN, LOWER,    RAISE, SPCFN, LGUI \
                               //`--------------------'  `--------------------'
@@ -125,7 +125,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
       XXXXX, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,                   LEFT,  DOWN,    UP,  RGHT, XXXXX, XXXXX,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-      XXXXX, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,                  XXXXX,   DEL, XXXXX, XXXXX, XXXXX, XXXXX,\
+      _____, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,                  XXXXX,   DEL, XXXXX, XXXXX, XXXXX, XXXXX,\
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
                                    LALT, ENTFN, LOWER,    RAISE, SPCFN, LGUI \
                               //`--------------------'  `--------------------'
