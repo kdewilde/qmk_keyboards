@@ -64,10 +64,10 @@ enum macro_keycodes {
 #define KC_ALTKN ALT_T(KC_LANG1)
 
 #define KC_ESCNM LT(_NUMPADFN, KC_ESC)
-#define KC_CTLEN CTL_T(KC_ENT)
 #define KC_SPCFN LT(_SPACEFN, KC_SPACE)
+#define KC_ENTFN CTL_T(KC_ENT)
 #define KC_CTLDL LALT(LCTL(KC_DEL))
-#define KC_LOCK LGUI(KC_L)
+#define KC_LOCK  LGUI(KC_L)
 
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
@@ -79,7 +79,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
        LSFT,     Z,     X,     C,     V,     B,                      N,     M,  COMM,   DOT,  SLSH,  RSFT,\
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
-                                   LALT, CTLEN, LOWER,    RAISE, SPCFN, LGUI \
+                                   LALT, ENTFN, LOWER,    RAISE, SPCFN, LGUI \
                               //`--------------------'  `--------------------'
   ),
 
@@ -87,11 +87,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //,-----------------------------------------.                ,-----------------------------------------.
        TILD,  EXLM,    AT,  HASH,   DLR,  LBRC,                   RBRC,  AMPR,  ASTR,  PERC,  CIRC,   DEL,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-      XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,  LPRN,                   RPRN,  MINS,  PLUS,   EQL,  UNDS,  PIPE,\
+      XXXXX,    F1,    F2,    F3,    F4,  LPRN,                   RPRN,  MINS,  PLUS,   EQL,  UNDS,  PIPE,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-      XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,  LCBR,                  XXXXX, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,\
+      XXXXX,    F7,    F8,    F9,   F10,  LCBR,                   RCBR, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,\
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
-                                   LALT, CTLEN, LOWER,    RAISE, SPCFN, LGUI \
+                                   LALT, ENTFN, LOWER,    RAISE, SPCFN, LGUI \
                               //`--------------------'  `--------------------'
   ),
 
@@ -103,7 +103,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
        LSFT,    F7,    F8,    F9,   F10,   F11,                    F12, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,\
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
-                                   LALT, CTLEN, LOWER,    RAISE, SPCFN, LGUI \
+                                   LALT, ENTFN, LOWER,    RAISE, SPCFN, LGUI \
                               //`--------------------'  `--------------------'
   ),
 
@@ -127,19 +127,19 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
       XXXXX, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,                  XXXXX,   DEL, XXXXX, XXXXX, XXXXX, XXXXX,\
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
-                                   LALT, CTLEN, LOWER,    RAISE, SPCFN, LGUI \
+                                   LALT, ENTFN, LOWER,    RAISE, SPCFN, LGUI \
                               //`--------------------'  `--------------------'
   ),
 
   [_NUMPADFN] = LAYOUT_kc( \
   //,-----------------------------------------.                ,-----------------------------------------.
-      XXXXX, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,                      7,     8,     9, XXXXX, XXXXX, XXXXX,\
+      XXXXX, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,                  XXXXX,     7,     8,     9, XXXXX, XXXXX,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-      XXXXX, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,                      4,     5,     6, XXXXX, XXXXX, XXXXX,\
+      XXXXX, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,                  XXXXX,     4,     5,     6, XXXXX, XXXXX,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-      XXXXX, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,                      1,     2,     3, XXXXX, XXXXX, XXXXX,\
+      XXXXX, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,                  XXXXX,     1,     2,     3, XXXXX, XXXXX,\
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
-                                   LALT, CTLEN, LOWER,    RAISE, SPCFN, LGUI \
+                                   LALT,   SPC, LOWER,    RAISE, SPCFN, LGUI \
                               //`--------------------'  `--------------------'
   ),
 
