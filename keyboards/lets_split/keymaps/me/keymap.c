@@ -9,15 +9,13 @@
 #define _RAISE 2
 #define _ADJUST 3
 #define _SPACEFN 4
-#define _ENTERFN 5
-#define _NUMPADFN 6
+#define _NUMPADFN 5
 
 enum custom_keycodes {
   QWERTY = SAFE_RANGE,
   LOWER,
   RAISE,
   SPACEFN,
-  ENTERFN,
   NUMPADFN,
   ADJUST,
 };
@@ -111,17 +109,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * `-----------------------------------------------------------------------------------'
  */
 [_SPACEFN] = LAYOUT_ortho_4x12( \
-  _______, _______, _______, _______, _______, _______, KC_INSERT, KC_HOME, KC_UP,   KC_END,  KC_BSPC, _______, \
-  _______, _______, _______, _______, _______, _______, _______,   KC_LEFT, KC_DOWN, KC_RGHT, _______, _______, \
+  _______, _______, _______, _______, _______, _______, KC_INSERT, KC_HOME, _______,   KC_END,  KC_BSPC, _______, \
+  _______, _______, _______, _______, _______, _______, KC_LEFT,   KC_DOWN, KC_UP,   KC_RGHT, _______, _______, \
   _______, _______, _______, _______, _______, _______, _______,   KC_DEL,  _______, _______, _______, _______, \
   _______, _______, _______, _______, _______, _______, _______,   _______, _______, _______, _______, _______ \
-),
-
-[_ENTERFN] = LAYOUT_ortho_4x12( \
-  LALT(KC_TAB),  LCTL(KC_Q), LCTL(KC_W), _______,    LCTL(KC_R), LCTL(KC_T), _______, _______, _______, LCTL(KC_O),  _______, _______, \
-  _______,       LCTL(KC_A), LCTL(KC_S), LCTL(KC_D), LCTL(KC_F), LCTL(KC_G), _______, _______, _______, LCTL(KC_L),  _______, _______, \
-  _______,       LCTL(KC_Z), LCTL(KC_X), LCTL(KC_C), LCTL(KC_V), _______,    _______, _______, _______, _______,     _______, _______, \
-  _______,       _______,    _______,    _______,    _______,    _______,    _______, _______, _______, _______,     _______, _______ \
 ),
 
 [_NUMPADFN] = LAYOUT_ortho_4x12( \
