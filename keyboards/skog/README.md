@@ -16,7 +16,8 @@ however this doesn't work for you, you need to enter the bootloader mode manuall
 by plugging the keyboard in while holding the bootloader key. If you did this
 correctly the LEDs will blink and you'll be able to flash your firmware.
 
-The bootloader key is in the top-right (Pause).
+The bootloader key is in the bottom-left (Ctrl).
+~~The bootloader key is in the top-right (Pause).~~
 
 ## Flashing
 
