@@ -1,0 +1,15 @@
+LCtrl	Lshft	Caps	Tab	~	ESC	BAD	F7
+LAlt	Z	A	Q	1	BAD	6	9
+LGUI	X	S	W	2	F1	Y	O
+BAD	C	D	E	3	F2	H	L
+BAD	V	F	R	4	F3	N	.>
+BAD	B	G	T	5	F4	Spc	RAlt
+Left	BAD	BAD	Del	Ins	BAD	BAD	PrtSc
+Down	Up	BAD	End	Home	BAD	BAD	ScrLk
+Right	BAD	BAD	PgDn	PgUp	BAD	BAD	Pause
+BAD	BAD	BAD	BAD	BAD	BAD	BAD	BAD
+FN	/?	:;	P	0	BAD	F5	F6
+FN	Rshft	"'	[{	-_	F8	7	8
+Rctrl	FN	BAD	]}	=+	F9	U	I
+BAD	F11	Enter	\|	\|	F10	J	K
+BAD	F12	BAD	BAD	BackSpc	BAD	M	,<
