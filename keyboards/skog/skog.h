@@ -45,11 +45,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   K04, K14, K24, K34, K44, K54,  K16,  KB6,  KB7,  K17,  KA4, KB4, KC4, KD4,           K64, K74, K84, \
    K03  , K13, K23, K33, K43, K53,  K26,  KC6,  KC7,  K27,  KA3, KB3, KC3,  KD3 ,      K63, K73, K83, \
      K02  , K12, K22, K32, K42, K52,  K36,  KD6,  KD7,  K37,  KA2, KB2,   KD2   ,                     \
-      K01  , K11, K21, K31, K41, K51,  K46,  KE6,  KE7,  K47,  KA1,   KB1  , KC1,           K71,      \
+      K01  , K11, K21, K31, K41, K51,  K46,  KE6,  KE7,  K47,  KA1,    KB1  ,               K71,      \
   K00 ,      K20 ,                K56                        , KA0          KC0 ,      K60, K70, K80  \
 ){ \
   { K00,   KC_NO, K20,   KC_NO, KC_NO, KC_NO, K60,   K70,   K80,   KC_NO, KA0,   KC_NO, KC0,   KC_NO, KC_NO }, \
-  { K01,   K11,   K21,   K31,   K41,   K51,   KC_NO, K71,   KC_NO, KC_NO, KA1,   KB1,   KC1,   KD1,   KE1   }, \
+  { K01,   K11,   K21,   K31,   K41,   K51,   KC_NO, K71,   KC_NO, KC_NO, KA1,   KB1,   KC_NO,   KD1,   KE1   }, \
   { K02,   K12,   K22,   K32,   K42,   K52,   KC_NO, KC_NO, KC_NO, KC_NO, KA2,   KB2,   KC_NO, KD2,   KC_NO }, \
   { K03,   K13,   K23,   K33,   K43,   K53,   K63,   K73,   K83,   KC_NO, KA3,   KB3,   KC3,   KD3,   KC_NO }, \
   { K04,   K14,   K24,   K34,   K44,   K54,   K64,   K74,   K84,   KC_NO, KA4,   KB4,   KC4,   KD4,   KC_NO   }, \
