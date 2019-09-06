@@ -3,6 +3,10 @@
 
 #include "quantum.h"
 
+#define HSV_LB_CYAN 175, 255, 64
+#define HSV_LB_RED  0, 255, 64
+#define HSV_LB_GOLDENROD  30, 218, 64
+
 #define LAYOUT_wrapper(...)                  LAYOUT(__VA_ARGS__)
 #define LAYOUT_WKL_wrapper(...)              LAYOUT_WKL(__VA_ARGS__)
 

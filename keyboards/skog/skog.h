@@ -42,7 +42,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define LAYOUT_WKL( \
   K05,      K25, K35, K45, K55,      KA6, KA7, K07, KB5,      KC5, KD5, KD1, KE1,      K67, K77, K87, \
                                                                                                       \
-  K04, K14, K24, K34, K44, K54,  K16,  KB6,  KB7,  K17,  KA4, KB4, KC4, KD4,           K64, K74, K84, \
+  K04, K14, K24, K34, K44, K54,  K16,  KB6,  KB7,  K17,  KA4, KB4, KC4, KE4,           K64, K74, K84, \
    K03  , K13, K23, K33, K43, K53,  K26,  KC6,  KC7,  K27,  KA3, KB3, KC3,  KD3 ,      K63, K73, K83, \
      K02  , K12, K22, K32, K42, K52,  K36,  KD6,  KD7,  K37,  KA2, KB2,   KD2   ,                     \
       K01  , K11, K21, K31, K41, K51,  K46,  KE6,  KE7,  K47,  KA1,    KB1  ,               K71,      \
@@ -52,7 +52,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   { K01,   K11,   K21,   K31,   K41,   K51,   KC_NO, K71,   KC_NO, KC_NO, KA1,   KB1,   KC_NO,   KD1,   KE1   }, \
   { K02,   K12,   K22,   K32,   K42,   K52,   KC_NO, KC_NO, KC_NO, KC_NO, KA2,   KB2,   KC_NO, KD2,   KC_NO }, \
   { K03,   K13,   K23,   K33,   K43,   K53,   K63,   K73,   K83,   KC_NO, KA3,   KB3,   KC3,   KD3,   KC_NO }, \
-  { K04,   K14,   K24,   K34,   K44,   K54,   K64,   K74,   K84,   KC_NO, KA4,   KB4,   KC4,   KD4,   KC_NO   }, \
+  { K04,   K14,   K24,   K34,   K44,   K54,   K64,   K74,   K84,   KC_NO, KA4,   KB4,   KC4,   KC_NO, KE4   }, \
   { K05,   KC_NO, K25,   K35,   K45,   K55,   KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KB5,   KC5,   KD5,   KC_NO }, \
   { KC_NO, K16,   K26,   K36,   K46,   K56,   KC_NO, KC_NO, KC_NO, KC_NO, KA6,   KB6,   KC6,   KD6,   KE6   }, \
   { K07,   K17,   K27,   K37,   K47,   KC_NO,   K67, K77,   K87,   KC_NO, KA7,   KB7,   KC7,   KD7,   KE7   }  \
