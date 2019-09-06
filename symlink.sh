@@ -112,7 +112,19 @@ link_keyboards () {
     link_file "$src" "$dst"
 }
 
+
+link_users () {
+  info 'linking users folder'
+
+  local overwrite_all=false backup_all=false skip_all=false
+
+    src="$ROOT_FOLDER/users"
+    dst="$ROOT_FOLDER/qmk_firmware/users"
+    link_file "$src" "$dst"
+}
+
 link_keyboards 
+link_users 
 
 echo ''
 echo '  All linked!'
