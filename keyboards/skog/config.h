@@ -32,6 +32,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_ANIMATIONS
 
 #define BACKLIGHT_LEVELS 5
+#define RGBLIGHT_SLEEP
 
 #define NO_UART 1
 
