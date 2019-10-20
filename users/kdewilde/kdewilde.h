@@ -9,6 +9,7 @@
 
 #define LAYOUT_wrapper(...)                  LAYOUT(__VA_ARGS__)
 #define LAYOUT_WKL_wrapper(...)              LAYOUT_WKL(__VA_ARGS__)
+#define LAYOUT_HHKB_wrapper(...)             LAYOUT_60_hhkb(__VA_ARGS__)
 
 #define _________________QWERTY_L0_________________       _________________FUNC_LEFT_________________
 #define _________________QWERTY_L1_________________       ________________NUMBER_LEFT________________
