@@ -17,3 +17,5 @@ run ./symlink.sh
 - lets_split
 - crkbd
 - doro67
+- skog (other version then in QMK repo)
+- dz60 (HHKB - KN2.10)
