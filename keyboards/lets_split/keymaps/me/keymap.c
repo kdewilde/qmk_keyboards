@@ -23,6 +23,7 @@ enum custom_keycodes {
 #define LOWER  MO(_LOWER)
 #define RAISE  MO(_RAISE)
 #define ADJUST MO(_ADJUST)
+#define BREAK  LALT(LCTL(KC_BRK))
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 /* Qwerty
@@ -91,7 +92,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * `-----------------------------------------------------------------------------------'
  */
 [_ADJUST] = LAYOUT_ortho_4x12( \
-  _______, RESET,   _______, _______,    _______,            _______, _______, _______, _______, _______, _______, KC_DEL, \
+  _______, RESET,   _______, _______,    _______,            _______, _______, _______, _______, _______, _______,   BREAK, \
   _______, _______, _______, _______,    _______,            _______, _______, _______, _______, _______, _______, _______, \
   _______, RGB_TOG, RGB_MOD, RGB_HUI,    RGB_HUD,            RGB_SAI, RGB_SAD, RGB_VAI, RGB_VAD, _______, _______, _______, \
   _______, _______, _______, LGUI(KC_L), LALT(LCTL(KC_DEL)), _______, _______, _______, _______, _______, _______, _______ \
