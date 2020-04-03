@@ -73,7 +73,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 void matrix_init_user(void) {
     rgblight_enable();
-    rgblight_sethsv(HSV_LB_CYAN);
+    rgblight_sethsv(HSV_LB_8008_PINK);
 }
 
 void matrix_scan_user(void) {
@@ -89,7 +89,7 @@ uint32_t layer_state_set_user(uint32_t state) {
             rgblight_sethsv (HSV_LB_RED);
             break;
         default:
-            rgblight_sethsv (HSV_LB_CYAN);
+            rgblight_sethsv (HSV_LB_8008_PINK);
             break;
     }
     return state;
