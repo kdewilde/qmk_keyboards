@@ -33,9 +33,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_ESC,  _________________QWERTY_L0_________________, _________________QWERTY_R0_________________, KC_F11,     KC_F12,                  KC_PSCR, TG(_GAMING), KC_PAUS,
       KC_GRV,  _________________QWERTY_L1_________________, _________________QWERTY_R1_________________, KC_MINS,    KC_EQL,     KC_BSPC,     KC_INS,  KC_HOME, KC_PGUP,
       KC_TAB,  _________________QWERTY_L2_________________, _________________QWERTY_R2_________________, KC_LBRC,    KC_RBRC,    KC_BSLS,     KC_DEL,  KC_END,  KC_PGDN,
-      CTLESC,  _________________QWERTY_L3_________________, _________________QWERTY_R3_________________, KC_QUOT,            KC_ENT,
-      KC_LSFT, _________________QWERTY_L4_________________, _________________QWERTY_R4_________________,             KC_RSFT,                                      KC_UP,
-      KC_LCTL,          KC_LALT,                     SPCFN,                                              KC_RGUI,       LT(_FN, KC_RCTL),     KC_LEFT, KC_DOWN, KC_RGHT
+      CTLESC,  _________________QWERTY_L3_________________, _________________QWERTY_R3_________________, KC_QUOT,                KC_ENT,
+      KC_LSFT, _________________QWERTY_L4_________________, _________________QWERTY_R4_________________,             KC_RSFT,                          KC_UP,
+      KC_LCTL,          KC_LALT,                     SPCFN,                                              KC_RGUI,                MO(_FN),     KC_LEFT, KC_DOWN, KC_RGHT
     ),
     [_FN] = LAYOUT_WKL_wrapper(
       _______, ____________________FN_L0__________________, ____________________FN_R0__________________, _______, _______,                    _______, KC_SLCK, _______,
